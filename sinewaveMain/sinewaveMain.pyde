@@ -2,7 +2,7 @@ import random
 y_size = 600
 y_offset = y_size / 2
 move = 20
-num_waves = 9  #Number of waves is from 0
+num_waves = 0  #Number of waves is from 0
 
 sinlists = []
 
