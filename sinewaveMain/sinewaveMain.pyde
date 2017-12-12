@@ -20,7 +20,13 @@ def setup():
     size(1200, 600)
     noStroke()
     frameRate(60)
+    global r
+    global g
+    global b
     global num_waves
+    r = random.randrange(0, 250)
+    g = random.randrange(0, 250)
+    b = random.randrange(0, 250)
     sin_counter = 0
     sin_count2 = 0
     sin_param = []
@@ -39,13 +45,13 @@ def draw():
     global y_offset
     global move
     global num_waves
+    global r
+    global g
+    global b
     comp_counter = 0
-    r = 0
-    g = 0
-    b = 0
     comp2 = 0
     background(0, 0, 0)
-    fill(255, 255, 255)
+    fill(r, g, b)
     while comp2 <= num_waves:
         for center_x in range(0, 1210, 20):
             center_y = 0
