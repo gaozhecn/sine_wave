@@ -1,3 +1,7 @@
+#Code by Stuart Demarkles
+#Program that generates a sine wave which is made up of 20 random waves
+#You can change num_waves to generage any number of waves
+
 import random
 y_size = 600
 y_offset = y_size / 2
